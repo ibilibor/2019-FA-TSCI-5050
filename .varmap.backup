@@ -1,0 +1,44 @@
+origname,varname,dispname
+assigned.study.number,study number,Study Number
+age..yr.,age,Age (yr)
+gender..m...0..f.1,gender,Gender
+geographic.locationtexas.resident..yes...1..no...0,TX_resident,TX Resident
+geographic.location..nm.resident..yes...1..no..0,NM_resident,NM Resident
+distance.from.umc..miles.,distance_UMC,Distance from UMC
+distance.from.umc.less.than.50miles...1..50.100miles.2..greater.than.100miles.3,distance_50_100,"Distance from UMC in miles (50, 100, 150)"
+location.of.stent.placement..umc...1..osh...0,location_UMC_OSH,Location of Stent Placement (UMC or OSH)
+duration.of.stent.in.place..days.,duration,Duration of Stent in Place (days)
+is.the.stent.retained..yes...1..no..0,retained,Is the Stent Retained
+reason.for.stent..stones.1..malignancy.2..infectious.3..other.4,reason,"Reason for Stent (stones, malignancy, infectious, other)"
+laterality.of.stent..left...0..right...1..bilateral...2,laterality,"Laterality of Stent (left, right or bilateral)"
+financial.class.at.the.time.of.stent.placement..medicaid.1..medicare.2..commercial.or.state.correctional.or.county.program.3..self.pay.4,financial_class_placement,"Financial Class at Stent Placement (Medicaid, Medicare, Commercial/State Correctional/County program or Self Pay)"
+financial.class.at.the.time.of.stent.removal..medicaid.1..medicare.2..commercial.or.state.correctional.3..self.pay.4,financial_class_removal,"Financial Class at Stent Removal (Medicaid, Medicare, Commercial/State Correctional/County program or Self Pay)"
+ureteral.stent.removed.in.urology.clinic..yes...1..no...0,removed_clinic,Stent Removed in Urology Clinic (yes or no)
+no..or.sessions.required.for.stent.removal..n.,number_OR_sessions,Number of OR Sessions Required for Stent Removal
+no..of.cystolitholopaxys.required.to.remove.stent..n.,number_cystolitholopaxy,Number of Cystolitholopaxys Required for Stent Removal
+no..of.eswls.required.for.stent.removal..n.,number_ESWLs,Number of ESWLs Required for Stent Removal
+no..of.ureteroscopies.with.laser.ablation.required.for.stent.removal..n.,number_ureteroscopies,Number of URS Required for Stent Removal
+no..of.pcnls.required.for.stent.removal..n.,number_PCNLs,Number of PCNLs Required for Stent Removal
+no..of.robot.assisted.pyelolithotomies.required.for.stent.removal..n.,number_robot_pyel,Number of Robot Pyelolithotomies Required for Stent Removal
+nephrectomy.after.removal.of.stent..yes.1..no.0,nephrectomy_removal,Nephrectomy after Stent Removal (yes or no)
+ureteral.re.implantation.procedure.after.removal.retained.stent..yes...1..no.0,reimplant_removal,Ureteral Re-implant after Retained Stent Removal (yes or no)
+dx.of.ckd..within.3.months.before.stent.placement..yes..1..no...0,Dx_CKD_3mo,Diagnosis of CKD within 3 months Before Stent Placement (yes or no)
+dx.of.ckd.after.removal.of.stent..yes..1..no...0,Dx_CKD_removal,Diagnosis of CKD after Removal of Retained Stent (yes or no)
+creatinine.at.time.of.stent.placement..mg.dl.,Cr_placement,Creatinine at Stent Placement (mg/dL)
+egfr.at.time.of.stent.placement..ml.min.,EGFR_placement,eGFR at Stent Placement (ml min)
+creatinine.at.time.of.stent.removal...if.two.values.are.available.on.that.day..use.the.one.after.stent.removal..mg.dl.,Cr_removal,Creatinine at Stent Removal (mg/dL)
+egfr.at.time.of.stent.removal...ml.min.,EGFR_removal,eGFR at Stent Removal (ml/min)
+date.of.most.recent.creatinine.and.egfr..mm.dd.yyyy.,date_recent_Cr,Date of Most Recent Creatinine and eGFR (mm/dd/yyyy)
+most.recent.creatinine.after.stent.removal..mg.dl.,recent_Cr,Most Recent Creatinine after Stent Removal (mg/dL)
+most.recent.egfr.after.stent.removal..mg.dl.,recent_EGFR,Most Recent eGFR after Stent Removal (mg/dL)
+duration.between.stent.removal.and.most.recent.creatinine..mo.,duration_removal_recent_Cr,Duration Between Stent Removal and Most Recent Creatinine (mo)
+no..of.hospital.admissions.for.urosepsis..pyelonephritis..or.uti..after.stent.placement.but.before.stent.removal..n.,number_urosepsis,"Number of Hospital Admissions for urosepsis, pyelonephritis or UTI after Stent Placement"
+mag.3.scan..split.function.of.kidney.with.stent.before.stent.remova.but.after.stent.placement....,MAG3_placement,MAG3 scan Before Stent Removal
+mag.3.scan..split.function.of.kidney.with.stent..after.stent.removal....,MAG3_removal,MAG3 scan after Stent Removal
+iddmii...0..niddmii...1..non.diabetic.2.before.stent.placement,IDDMII_placement,"IDDMII, NIDMII, or non-diabetic before stent placement"
+iddmii...0..niddmii...1..non.diabetic.2.after.stent.removal,IDDMII_removal,"IDDMII, NIDMII, or non-diabetic after stent removal"
+hypertension.before.stent.placement.yes.1..no.0,HTN_placement,HTN before stent placement (yes or no)
+hypertension.after.stent.removal.yes.1..no.0,HTN_removal,HTN after stent removal (yes or no)
+number.of.urology.clinic..no.shows..after.stent.placement.but.before.stent.removal....n.,number_noshows,Number of Urology clinic no-show appointments (n)
+...42,...42,...42
+...43,...43,...43
